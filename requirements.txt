@@ -1,7 +1,6 @@
-with open("requirements.txt", "w") as f:
-    f.write("fastapi\n")
-    f.write("uvicorn\n")
-    f.write("torch\n")
-    f.write("torchvision\n")
-    f.write("opencv-python-headless\n")
-    f.write("python-multipart\n")
+fastapi
+uvicorn
+torch
+torchvision
+opencv-python-headless
+python-multipart
