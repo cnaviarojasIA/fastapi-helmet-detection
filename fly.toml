@@ -1,0 +1,14 @@
+app = "fastapi-helmet-detection"
+primary_region = "ord"
+
+[build]
+
+[env]
+PORT = "8080"
+
+[experimental]
+allowed_public_ports = []
+auto_rollback = true
+
+[deploy]
+strategy = "rolling"
