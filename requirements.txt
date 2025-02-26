@@ -5,3 +5,4 @@ torchvision
 opencv-python-headless
 python-multipart
 nest_asyncio
+pandas
