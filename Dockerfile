@@ -14,7 +14,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 8080
 
 #Copia de best_model.pt correctamente en el contenedor durante el despliegue.
-COPY best_model.pt /app/
+COPY best_model.pt /app/best_model.pt
 
 # Comando para iniciar FastAPI
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8080"]
